@@ -1,0 +1,118 @@
+$greyColor: lightgrey;
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.name-title {
+    border-bottom: solid 1px $greyColor;
+
+    &__name {
+        font-size: 45px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: 'Playfair Display', serif;
+        margin: 0;
+    }
+
+    &__title {
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+    }
+}
+
+.personal {
+    border-right: solid 1px $greyColor;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &-info-phone {
+        &__gh {
+            margin: 5px 0;
+        }
+    }
+}
+
+.work-details {
+    margin-bottom: 50px;
+
+    &-content {
+        &-pos-dur {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    &-company-title {
+        &__position {
+            margin: 5px 0;
+        }
+    }
+
+    &-title-link {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-tech {
+        &__list {
+            display: block;
+            margin-top: 10px;
+        }
+    }
+}
+
+.section--heading {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    margin: 20px 0 7px 0;
+
+    // &::after {
+    //     content:""; 
+    //     background: black; 
+    //     position: absolute; 
+    //     bottom: 0; 
+    //     left: 0px; 
+    //     height: 1px; 
+    //     width: 10%;
+    //     opacity: .2;
+    // }
+}
+
+summary {
+    margin: 10px 0px 20px 20px;
+}
+
+time {
+    display: block;
+    margin-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sub-section--heading {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.last--content {
+    margin-bottom: 180px;
+}
