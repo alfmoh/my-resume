@@ -99,6 +99,14 @@ a, a:hover, a:focus, a:active {
     // }
 }
 
+.other {
+    &-blogs {
+        &-list {
+            &__item {}
+        }
+    }
+}
+
 summary {
     margin: 10px 0px 20px 20px;
 }

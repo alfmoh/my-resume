@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Playfair+Display|Quicksand|Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="scss/styles.css">
-    <title>My Resume</title>
+    <title>My-Resume</title>
 </head>
 
 <body>
@@ -24,7 +24,6 @@
                     <article class="personal-info-phone">
                         <heading class="personal-info-phone__heading sub-section--heading">Phone</heading>
                         <p class="personal-info-phone__ru">+79040163461</p>
-                        <p class="personal-info-phone__gh">+233208516233</p>
                     </article>
                     <article class="personal-info-email">
                         <heading class="personal-info-email__heading sub-section--heading">Email</heading>
@@ -43,7 +42,9 @@
                             <li class="personal-lang-tech-list__item">Angular</li>
                             <li class="personal-lang-tech-list__item">Redux</li>
                             <li class="personal-lang-tech-list__item">RxJs</li>
+                            <li class="personal-lang-tech-list__item">D3.js</li>
                             <li class="personal-lang-tech-list__item">BEM </li>
+                            <li class="personal-lang-tech-list__item">Git</li>
                             <li class="personal-lang-tech-list__item">C#</li>
                             <li class="personal-lang-tech-list__item">ASP.NET Core</li>
                         </ul>
@@ -59,7 +60,7 @@
                     </article>
                 </article>
                 <article class="personal-tech-other">
-                    <h3 class="personal-tech-other__heading section--heading">Familar Design Tools</h3>
+                    <h3 class="personal-tech-other__heading section--heading">Familiar Design Tools</h3>
                     <article class="personal-tech-other-non-tech">
                         <p class="personal-tech-other-non-tech__list">
                             Adobe XD, Adobe Lightroom, Adobe Photoshop
@@ -72,7 +73,6 @@
                         <ul class="ulersonal-skills-non-tech-list">
                             <li class="personal-skills-non-tech-list__item">Clear communication </li>
                             <li class="personal-skills-non-tech-list__item">Highly organized </li>
-                            <li class="personal-skills-non-tech-list__item">Innovative problem-solving</li>
                             <li class="personal-skills-non-tech-list__item">Team Player</li>
                             </p>
                     </article>
@@ -84,12 +84,18 @@
                     <summary class="work-profile__details">
                         Pragmatic web developer with 4+ years experience in building and maintaining responsive
                         websites. Proﬁcient in HTML, CSS, JavaScript and modern libraries and
-                        frameworks, particulary Angular. Passionate about simplicity and user-centered design.
+                        frameworks, particularly, Angular. Passionate about simplicity and user-centered design.
                     </summary>
                 </article>
                 <article class="edu">
                     <section class="edu-profile">
                         <h3 class="edu-profile__heading section--heading">Education</h3>
+                        <section class="edu-profile__details">
+                            <h4 class="edu-profile__name sub-section--heading">Higher School of Economics, Moscow</h4>
+                            <p class="edu-profile__course">Master of Science, System and Software Engineering</p>
+                            <time class="edu-profile__duration">2019 - 2021</time>
+                        </section>
+                        <br>
                         <section class="edu-profile__details">
                             <h4 class="edu-profile__name sub-section--heading">Tver State Technical University</h4>
                             <p class="edu-profile__course">Bachelor of Science, Electrical Engineering</p>
@@ -190,11 +196,11 @@
                         <section class="work-details">
                             <section class="work-details-title-link">
                                 <span class="work-details-title-link__title sub-section--heading">
-                                    Project name - Odarkor
+                                    Project name - <a href="https://odarkor.org/" target="_blank">Odarkor</a>
                                 </span>
-                                <a href="https://odarkor.org/" target="_blank"
+                                <a href="https://github.com/alfmoh/odarkor" target="_blank"
                                     class="work-details-title-link__link sub-section--heading">
-                                    Project Link
+                                    Source Code
                                 </a>
                             </section>
                             <section class="work-details-tech">
@@ -241,30 +247,50 @@
                     <h3 class="work-profile__heading section--heading">Others</h3>
                     <section class="other-os">
                         <h4 class="other-os__title sub-section--heading">Open Source</h4>
-                        <p class="other-os__heading sub-section--heading">Contributer to <strong><a
-                                    href="https://github.com/TeaEntityLab/fpEs">fpEs</a></strong></p>
+                        <section class="other-os-fpes">
+                            <p class="other-os__heading sub-section--heading">Contributer to <strong><a target="_blank"
+                                    href="https://www.npmjs.com/package/fpes">fpEs</a></strong></p>
                         <summary class="other-os__desc">
                             Functional Programming library for JavaScript
                         </summary>
+                        <section class="other-os-injecta">
+                            <p class="other-os__heading sub-section--heading">Author of <strong><a target="_blank"
+                                    href="https://www.npmjs.com/package/injecta">Injecta</a></strong></p>
+                        <summary class="other-os__desc">
+                            AngularJs-style dependency library for JavaScript
+                        </summary>
+                        </section>
                     </section>
                     <section class="other-community">
                         <h4 class="other-community__title sub-section--heading">Community</h4>
-                        <p class="other-community__heading">One of the pioneers of <strong><a
+                        <section class="other-community-tver">
+                            <p class="other-community__heading">One of the pioneers of <strong><a target="_blank"
                                     href="https://www.facebook.com/groups/freecodecamp.tver/">FreedodeCamp,
                                     Tver</a></strong>
                         </p>
                         <summary class="other-community__desc">
                             Web development community in Tver, Russia.
                         </summary>
+                        </section>
+                        <section class="other-community-alligator">
+                            <p class="other-community__heading">Writer for <strong><a target="_blank"
+                                    href="https://alligator.io/author/alfred-m-adjei">alligator.io</a></strong>
+                        </p>
+                        <summary class="other-community__desc">
+                            Web development tutorial site.
+                        </summary>
+                        </section>
                     </section>
                     <section class="other-blogs">
                         <h4 class="other-blogs__title sub-section--heading">Blogs and Accounts</h4>
                         <ul class="other-blogs-list">
-                            <li class="other-blogs-list__item"><a href="https://kotlindon.wordpress.com/">Kotlin for
+                            <li class="other-blogs-list__item"><a href="https://kotlindon.wordpress.com/" target="_blank" >Kotlin for
                                     beginners</a></li>
-                            <li class="other-blogs-list__item"><a href="https://github.com/alfmoh">Github</a></li>
+                            <li class="other-blogs-list__item"><a href="https://github.com/alfmoh" target="_blank" >Github</a></li>
                             <li class="other-blogs-list__item"><a
-                                    href="https://stackoverflow.com/users/5138921/alf-moh">Stackoverflow</a></li>
+                                    href="https://stackoverflow.com/users/5138921/alf-moh" target="_blank" >Stackoverflow</a></li>
+                            <li class="other-blogs-list__item"><a
+                                    href="https://medium.com/@alfmohenu" target="_blank" >Medium</a></li>
                         </ul>
                     </section>
                 </article>
