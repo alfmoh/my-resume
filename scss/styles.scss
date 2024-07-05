@@ -81,6 +81,14 @@ a, a:hover, a:focus, a:active {
     }
 }
 
+.work-profile {
+    &-list {
+        &__item {
+            margin-bottom: 20px;
+        }
+    }
+}
+
 .section--heading {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;

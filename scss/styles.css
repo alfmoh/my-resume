@@ -1,8 +1,17 @@
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: underline;
   color: inherit;
 }
@@ -13,10 +22,8 @@ a, a:hover, a:focus, a:active {
 }
 
 .main {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 3fr;
-      grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 3fr;
 }
 
 .name-title {
@@ -57,12 +64,8 @@ a, a:hover, a:focus, a:active {
 }
 
 .work-details-content-pos-dur {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .work-details-company-title__position {
@@ -70,17 +73,17 @@ a, a:hover, a:focus, a:active {
 }
 
 .work-details-title-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .work-details-tech__list {
   display: block;
   margin-top: 10px;
+}
+
+.work-profile-list__item {
+  margin-bottom: 10px;
 }
 
 .section--heading {
@@ -107,4 +110,3 @@ time {
 .last--content {
   margin-bottom: 180px;
 }
-/*# sourceMappingURL=styles.css.map */
